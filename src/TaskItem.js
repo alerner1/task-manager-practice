@@ -1,8 +1,8 @@
 const TaskItem = ({task}) => {
   return(
-    <>
+    <li>
       {task}
-    </>
+    </li>
   );
 }
 

@@ -14,7 +14,9 @@ const TaskContainer = ({ taskList }) => {
 
   return (
     <article>
-      {mapTasks()}
+      <ul>
+        {mapTasks()}
+      </ul>
     </article>
   )
 }
