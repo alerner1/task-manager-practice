@@ -10,6 +10,7 @@ const InputBar = ({appHandleSubmit}) => {
   const handleSubmit = (event) => {
     event.preventDefault();
     appHandleSubmit(task);
+    setTask('');
   }
 
   return(
